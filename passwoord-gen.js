@@ -119,3 +119,9 @@ return password
 }
 
 
+generateBtn.addEventListener("click", function () {
+
+  password1.textContent= generatePassword()
+  password2.textContent= generatePassword()
+
+});
