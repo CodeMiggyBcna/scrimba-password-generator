@@ -102,17 +102,20 @@ function getRandomCharacter() {
 }
 
 
-function generate password{
+function generatePassword(){
 
 let password=""
 
-for (let i=0; i= < 15; characters.length
-; i++)
+for (let i=0; i= < 15; i++) {
 
 
-{password =+ getRandomCharacter()}
+password += getRandomCharacter();
+
+}
 
 return password
 
 
 }
+
+
